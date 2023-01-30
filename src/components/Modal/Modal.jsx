@@ -31,6 +31,7 @@ export class Modal extends Component {
     }
   };
 
+  
   render() {
     const { img } = this.props;
     return createPortal(
